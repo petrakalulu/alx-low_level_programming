@@ -5,7 +5,7 @@
  *main - Entry point
  * Return: Always 0 (Success)
  */
-/* betty style doc for function main goes there */
+/* this program determines if the number is positive negative or zero */
 int main(void)
 {
 int n;
