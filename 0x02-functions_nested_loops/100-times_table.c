@@ -2,8 +2,9 @@
 
 
 	/**
-	 * print_times_table - prints the n times table, starting with 0
-	 * @n: number of the times table
+	 * prints the n times table, starting with 0. If n is negative or
+	 * greater than 15, the function does nothing.
+	 * Return: void
 	 */
 	void print_times_table(int n)
 	{
@@ -45,5 +46,6 @@
 				}
 				_putchar('\n');
 			}
-		}	}
+		}
+	}
 
