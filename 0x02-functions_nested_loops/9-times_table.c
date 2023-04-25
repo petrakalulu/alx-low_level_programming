@@ -1,23 +1,11 @@
 #include "main.h"
 /**
- * prints the 9 times table starting with 0.
- * Return; no return.
+* main - check the code
+*
+* Return: Always 0.
  */
-void times_table(void)
+int main(void)
 {
-int i, result;
-for (i = 0; i <= 9; i++)
-{
-result = 9 * i;
-_putchar(result / 10 + '0');
-_putchar(result % 10 + '0');
-if (i != 9)
-{
-_putchar(',');
-_putchar(' ');
-if (result + 9 < 10)
- putchar(' ');
-}
-}
-_putchar('\n');
+times_table();
+return (0);
 }
