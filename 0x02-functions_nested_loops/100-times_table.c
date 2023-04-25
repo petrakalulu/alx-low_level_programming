@@ -1,11 +1,9 @@
 #include "main.h"
+/**
+ * print_times_table - Prints the multiplication table of a given size.
+ * @n: The size of the multiplication table to print.
+ */
 
-
-	/**
-	 * prints the n times table, starting with 0. If n is negative or
-	 * greater than 15, the function does nothing.
-	 * Return: void
-	 */
 	void print_times_table(int n)
 	{
 		int i, j, k;
