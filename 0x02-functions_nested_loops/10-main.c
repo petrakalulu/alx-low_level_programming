@@ -1,10 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 
+/* Function prototype */
+int add(int a, int b);
+
 /**
- * main - check the code
+ * main - Entry point
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,3 +17,4 @@ int main(void)
     printf("%d\n", n);
     return (0);
 }
+
