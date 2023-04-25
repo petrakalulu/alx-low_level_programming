@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-int add(int x, int y);
-
 /**
  * main - check the code
  *
