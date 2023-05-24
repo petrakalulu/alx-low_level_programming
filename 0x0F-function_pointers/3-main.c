@@ -1,5 +1,7 @@
 #include "function_pointers.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include "3-calc.h"
 /**
  * main - prints the result
  * @argc: the number of arguments in the program
