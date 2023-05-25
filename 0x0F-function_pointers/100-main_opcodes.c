@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * main - prints its own opcodes
  * @argc: number of arguments
