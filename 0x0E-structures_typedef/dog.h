@@ -11,7 +11,7 @@
 	 * Description: the structure dog rep dog and it
 	 * consists of name, age and owner
 	 */
-	struct dog
+	int struct dog
 	{
 		char *name;
 		float age;
