@@ -1,5 +1,6 @@
-#include "main.h"
 #include <stdlib.h>
+#include "main.h"
+
 /**
  * *_memset - fills memory with a constant byte
  * @s: memory area to be filled
@@ -43,4 +44,3 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	return (ptr);
 }
-
